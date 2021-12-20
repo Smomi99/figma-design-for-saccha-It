@@ -2,23 +2,26 @@
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .button{
 background: linear-gradient(90deg, #FF2F5E 0%, #6964eb 100%);
 border-radius: 8px;
+width: 244px;
+height: 64px;
+left: 1626px;
+top: 120px;
 }
 .top-banner{
     background-image: url('../images/bg-banner.jpg') ;
     background-repeat: no-repeat;
     background-size: auto;
-    /* height: 750px; */
+    
+    height: 930px;
 }
-
-.img{
-
-    margin-top: 122px;
-    margin-bottom: 50px;
-
+.top1{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .checked {
@@ -28,13 +31,56 @@ border-radius: 8px;
   
 .great-feature{
     background-image: url('../images/great-features-bg.png');
-   
+    /* background-repeat: no-repeat; */
+   background-size: auto;
 }
 .card{
-    background-color: #27272E;
-    border: 1px solid white;
-    border-radius:22px;
+    width: 400px;
+    height: 369px;
+    background: #27272E;
+    border: 2px solid #3A3A44;
+    box-sizing: border-box;
+    border-radius: 20px;    
 
+}
+.cards{
+    width: 300px !important ;
+    height: 282px !important;
+    background: #34343F;
+    border-radius: 15px;
+}
+.carousel-indicators{
+    /* position: relative; */
+
+    /* overflow-y: hidden; */
+
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top: 80px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    
+}
+.carousel-control-prev-icon {
+    background-image: url('../images/leftarr.png') !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* background: #d1d1d1;
+    border-radius: 22px; */
+}
+.carousel-control-next-icon {
+    background-image: url('../images/rightarr.png') !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background: #E76E85;
+    border-radius: 22px;
 }
 .card:hover{
     border: 1px solid rgb(32, 113, 219);
@@ -51,6 +97,17 @@ background: #FFFFFF;
 box-shadow: 0px 15px 40px rgba(204, 204, 204, 0.35);
 border-radius: 8px;
 }
+.widget-btn{
+    width: 248px;
+height: 64px;
+left: 836px;
+top: 8199px;
+
+background: #27272E;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 8px;
+}
 
 .avatar {
     vertical-align: middle;
@@ -61,13 +118,14 @@ border-radius: 8px;
   }
 
   .avatar:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
+    /* -ms-transform: scale(1.5); /* IE 9 */
+    /* -webkit-transform: scale(1.5); /* Safari 3-8 */
+    /* transform: scale(1.5);  */ 
+    cursor: pointer;
   }
   .absolute{
     position: absolute;
-    top: 500px;
+    top: 470px;
     
   }
 
@@ -94,4 +152,51 @@ footer ul li:first-child{
     .sub-menu{
         display: none;
     }
+
+  
 }
+@media screen and (min-width: 800px) {
+    .star{
+        margin-left: 165px;
+         width: 571px;
+                    
+         height: 166px;
+       
+         background: #FFFFFF;box-shadow: 0px 10px 40px rgba(200, 207, 215, 0.3);border-radius: 20px;
+    }
+    .features{
+        padding-top: 122px;
+    }
+    .illustrations2{
+        margin-right: 315px;
+         margin-left: 173px;
+    }
+    .illustrations3{
+         margin-left: 315px; margin-top: 220px;
+    }
+    .fonts{
+       font-weight: 600;
+        font-size: 60px;
+        line-height: 80px;
+    }
+  
+}
+
+.btn1{
+
+
+font-family: Inter;
+font-style: normal;
+
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* star 
+  style="margin-left: 265px; width: 571px;
+                    height: 166px;left: 315px;top: 778px;background: #FFFFFF;box-shadow: 0px 10px 40px rgba(200, 207, 215, 0.3);border-radius: 20px; 
+ */
